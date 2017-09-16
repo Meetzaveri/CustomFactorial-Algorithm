@@ -1,5 +1,5 @@
-# Javascript Algorithms
+
 # Beginner to Advanced Algorithm Practices
-Javascript algorithms for freecodecamp. 
+Javascript algorithms as for development
 
 Thank You!
