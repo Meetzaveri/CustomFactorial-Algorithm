@@ -66,7 +66,7 @@ let HashTable = function() {
 };
 
 
-console.log(hash('quincy', 10))
+console.log(hash('liam', 10))
 
 let ht = new HashTable();
 ht.add('rey', 'person');
