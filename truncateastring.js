@@ -8,7 +8,28 @@
 
 function truncateString(str, num) {
   // Clear out that junk in your trunk
-  return num>=str.length?str:(str.slice(0, num>3?(num-3):num)+'...');
+  var strlen = str.length;
+  var slicedstr;
+
+  if(strlen > num){
+    if(num <= 3){
+      slicedstr = str.slice(0,[num]);
+      slicedstr = slicedstr + '...';
+      
+      return slicedstr;
+    }
+    else {
+      slicedstr = str.slice(0,[num-3]);
+      slicedstr = slicedstr + '...';
+     
+      return slicedstr;
+    }  
+  }
+  
+  else{
+    return str;
+  }
+  
 }
 
 truncateString("A-tisket a-tasket A green and yellow basket", 11);
