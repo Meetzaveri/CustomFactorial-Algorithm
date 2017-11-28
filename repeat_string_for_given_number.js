@@ -1,19 +1,16 @@
-
 function repeatStringNumTimes(str, num) {
   // repeat after me
-  var storage = "";
+  var i;
   
-  if (num > 0){ //for ensuring positive values get real return while negative gets empty string
-  for(i=1 ; i <= num ; i++) {  // iterates till given number is out of boundary
-    storage+= str; // for str ="abc" --> "" + "abc" = "abc" i.e. for 1st time
-    console.log(storage); //just for ensurity 
+  var strdup = ''; // created a duplicate string
+  
+  // loop through the 
+  for (i=1;i<=num;i++){
+    strdup = strdup + str; // concatenate the duplicate string and actual string
   }
-   return storage; //return real answer
-  }
-  else{
-    return ""; //return empty string for negative value
-  }
- 
+  
+  //return a resultant string
+  return strdup;
 }
 
 repeatStringNumTimes("abc", 3);
