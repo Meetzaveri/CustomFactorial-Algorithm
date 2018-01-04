@@ -1,4 +1,4 @@
-function confirmEnding(string, target) {
+const confirmEnding = (string, target) => {
   // Step 1. Use the substr method
   if (string.substr(-target.length) === target) {
   
