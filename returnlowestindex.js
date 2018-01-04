@@ -1,6 +1,6 @@
-function destroyer(arr) {
+const destroyer = (arr) => {
   // Step 1. The arguments object is not an Array, we need to convert it into a real Array
-  var realArray = Array.prototype.slice.call(arguments); // Refer to MDN documentation
+  let realArray = Array.prototype.slice.call(arguments); // Refer to MDN documentation
    console.log(realArray);
   // Step 2.We run the filter() method on the array and pass it a function
   return arr.filter(function(searchElement) {
