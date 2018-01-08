@@ -1,7 +1,7 @@
 
 
 
-function largestOfFour(arr) {
+const largestOfFour = (arr) => {
   // You can do this!
   var largestnumbers=[0,0,0,0];
   for (var i = 0;i<arr.length;i++){       //Outer Loop Iteration
