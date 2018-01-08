@@ -8,7 +8,7 @@
  */
 
 
-function pairElement(str) {
+const pairElement = (str) => {
   var bp = {
       A: ['A','T'],
       T: ['T','A'],
