@@ -1,8 +1,8 @@
-function repeatStringNumTimes(str, num) {
+const repeatStringNumTimes = (str, num) => {
   // repeat after me
-  var i;
+  let i;
   
-  var strdup = ''; // created a duplicate string
+  let strdup = ''; // created a duplicate string
   
   // loop through the 
   for (i=1;i<=num;i++){
