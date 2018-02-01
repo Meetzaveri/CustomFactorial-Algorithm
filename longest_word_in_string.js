@@ -3,9 +3,7 @@ function findLongestWord(str) {
   //  argument as it will contain array of words
   var spl=str.split(' ') ;
   var foo=[];
-  for(var i=0;i<spl.length;i++){
-    foo.push(spl[i].length); 
-  }
+  spl.map(i => foo.push(i.length));
   //Using Spread Operator to calculate max. no. from array
   var max = Math.max(...foo);
   // Or We can use arr.reduce function to compare and return max from an array
