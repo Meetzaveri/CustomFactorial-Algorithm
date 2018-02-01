@@ -1,6 +1,3 @@
 
-function reverseString(str) {
-  return str.split('').reverse().join('');
-}
-
+reverseString = (str) => (str.split('').reverse().join(''))
 reverseString("hello");
