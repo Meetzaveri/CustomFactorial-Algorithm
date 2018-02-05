@@ -1,5 +1,5 @@
 
-function titleCase(str) {
+const titleCase = (str) => {
  //First Converted to lowercase in case of test cases are tricky ones
   var spl=str.toLowerCase();
  
