@@ -8,7 +8,7 @@
  */
 
 
-function myReplace(str, before, after) {
+const myReplace = (str, before, after) => {
   return str.replace( before, after.replace( /^(\w)/, function($1){
     return /^[A-Z]/.test(before)?$1.toUpperCase():$1.toLowerCase();
   }) );
