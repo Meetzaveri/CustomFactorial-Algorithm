@@ -1,6 +1,6 @@
 
 # Beginner to Advanced Algorithm Practices
-Javascript code snippets as for development
+Javascript code snippets as a form of algorithms
 
 ## Source
 - Majority of the algorithms are written from scratch by me as of thinking, white boarding and testing through hours of hours.
