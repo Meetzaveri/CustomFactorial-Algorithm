@@ -3,10 +3,7 @@ function super_reduced_string(s){
     // Complete this function
     var finalarr = [];
     var splitted = s.split('');
-    console.log('Splitted',splitted);
     splitted.forEach((item,index) => {
-        console.log(item,index);
-        console.log('Arr len',finalarr.length)
         if(finalarr.length === 0){
             finalarr.push(item);
         }
@@ -19,7 +16,6 @@ function super_reduced_string(s){
             }
             else{
                 accum = item;
-                console.log('Item',item,'arr at current',finalarr[j],'Occurences',occ);
                 if(accum === finalarr[finalarr.length - 1]){
 
                 }
@@ -38,8 +34,6 @@ function super_reduced_string(s){
         }
             
     })
-    console.log('FInal Arr',finalarr);
     var f = finalarr.join('');
-    console.log(f);
     return f;
 }
