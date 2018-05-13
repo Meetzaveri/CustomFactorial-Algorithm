@@ -1,5 +1,5 @@
 
-# Beginner to Advanced Algorithm Practices
+# Useful Javscript Snippets and algorithms
 Javascript code snippets as a form of algorithms
 
 ## Source
